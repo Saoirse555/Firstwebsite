@@ -1,0 +1,226 @@
+body{
+    background-image: url('scouts.jpg')
+}
+#maintext{
+    text-align: center;
+    margin: 75px;
+    border: 0.5px black;
+    
+}
+ /*Below I got this from w3 schools-- HTML Lists, 2022 */ 
+hgroup h1{
+  background-color: whitesmoke;
+   color: black;
+    font-family: fantasy;
+    text-decoration: underline;
+    font-size: 40px;
+    top:200px;
+}
+/*Below I got this from w3 schools -- HTML Lists*/ 
+hgroup {
+    padding-top: 100px;
+}
+/*Below I got this from w3 schools -- HTML Lists*/ 
+nav{
+    background-color: whitesmoke;
+    margin:auto ;
+  text-align: center;
+    position: fixed;
+    overflow: hidden;
+    /*Below I got this from w3 schools -- z-index for it to work  */ 
+    z-index: 3;
+    /*Below I got this from tutorials --
+    this was done because a tutor gave me a hint */ 
+    top:0;
+}
+/*Below I got this from tutorials --this was done in a tuturial  */ 
+nav li {
+  float: inherit;
+  display: inline-block;
+}
+/*Below I got this from tutorials --this was done in a tuturial  */ 
+nav li a {
+  display: inline-block;
+  padding: 10px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+}
+/*Below I got this from tutorials --this was done in a tuturial  */ 
+nav li a:hover {
+  background-image: url(fire1.jpg);
+}
+ /*Below I got this from w3 schools -- HTML Responsive Web Design, 2022 */ 
+@media screen and (max-width:200px){
+    hgroup .nav{
+    display:block;
+    float: none;
+}
+}
+/*Below I got this from w3 schools -- Html List  */ 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/*Below I got this from w3schools-- html and css dropdown content for span   */ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  box-shadow: 10px 10px 16px 10px;
+  padding: 20px 20px;
+   z-index: 1;
+ 
+}
+/*Below I got this from w3schools on span  */ 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+ ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+/*Below I got this from w3 schools list on active links in css */ 
+a:link{
+    text-decoration: underline
+}
+a:visited {
+    color:green whitesmoke;
+    text-decoration:line-through;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a hoover {
+    color: green;
+}
+
+h1 {
+  
+  margin: 50px;
+  border: 1px solid #00000000;
+  text-align:left;
+   font-family:sans-serif; 
+    font-size: 35px;
+}
+
+div {
+  background-color: whitesmoke;
+   position: absolute;
+}
+
+p {
+  text-align: left;
+  font-family: serif;
+  font-size-adjust: auto;
+  font-size: 20px;     
+}
+
+table th, td {
+    border: 2px solid;
+}
+table th {
+    font-size:35px;
+    padding:40px;
+}
+table{
+    display:table;
+    text-align: center;
+    border-collapse: collapse;
+    width: 80%;
+}
+li{
+    display:inline-flex;
+    font-size: 20px;
+    padding:20px;
+    
+}
+
+video{
+    height: inherit;
+    width: 1000px;
+    height:600px:
+}
+
+article{
+    position:relative;
+    padding: 5px
+}
+/*Below I got this from w3 schools -- for box elements  */ 
+.box{
+    background-color: whitesmoke;
+    display:inline-flex;
+    position: relative;
+    height:45%;
+    width:30%;
+    background-image: url(tree.jpg);
+   margin:10px
+
+}
+.box h2{
+    position: absolute;
+    text-align: center;
+    
+}
+.box p{
+    display: inline-table;
+    padding-top: 100px;
+    position: relative;
+}
+
+.gallery{
+    background-color: whitesmoke;
+    display:inline-flex;
+    position: relative;
+    height:30%;
+    width:32%;
+}
+.gallery :hover {
+    opacity: 0.8;
+}
+
+img{
+    border-radius: 20%;
+}
+ /*Below I got this from w3 schools -- HTML Responsive Web Design, 2022 */ 
+@media screen and (max-width:200px){
+    .gallery{
+    display:block;
+    width:100%;
+    float: left;
+}
+}
+
+.Beavers{
+   background-color: aqua;
+    padding: 10px;
+    
+}
+
+.Cubs{
+    background-color: pink;
+     padding: 10px;
+}
+.Scouts{
+    background-color: crimson;
+     padding: 10px;
+}
+.Ventures{
+    background-color: darkorchid;
+     padding: 10px;
+}
+
+.Rovers{
+    background-color: cadetblue;
+     padding: 10px;
+}
+/*Below I got this from w3 schools -- HTML Lists*/ 
+footers{
+    display:flex;
+    align-content: center;  
+}
